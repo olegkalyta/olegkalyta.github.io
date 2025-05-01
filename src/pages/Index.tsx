@@ -37,7 +37,7 @@ const HomePage = () => {
               <div className="md:w-1/2 flex justify-end">
                 <div className="max-w-md">
                   <img 
-                    src="https://images.unsplash.com/photo-1586880244406-8b245be7f5f6?auto=format&fit=crop&q=80&w=800&h=900" 
+                    src="https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?auto=format&fit=crop&q=80&w=800&h=900" 
                     alt="iOS app development" 
                     className="rounded-lg shadow-xl" 
                   />
