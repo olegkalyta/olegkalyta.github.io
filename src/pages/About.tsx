@@ -137,52 +137,6 @@ const AboutPage = () => {
                     </div>
                   </div>
                 </div>
-
-                <div className="mt-8 pt-8 border-t border-gray-100">
-                  <h3 className="text-lg font-medium mb-4">Send us a message</h3>
-                  <form className="space-y-4">
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
-                        <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                          Name
-                        </label>
-                        <input
-                          type="text"
-                          id="name"
-                          name="name"
-                          className="w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                          Email
-                        </label>
-                        <input
-                          type="email"
-                          id="email"
-                          name="email"
-                          className="w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                        />
-                      </div>
-                    </div>
-                    <div>
-                      <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                        Message
-                      </label>
-                      <textarea
-                        id="message"
-                        name="message"
-                        rows={4}
-                        className="w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
-                      ></textarea>
-                    </div>
-                    <div className="text-right">
-                      <Button type="submit">
-                        Send Message <ArrowRight className="ml-2 h-5 w-5" />
-                      </Button>
-                    </div>
-                  </form>
-                </div>
               </div>
             </div>
           </div>
