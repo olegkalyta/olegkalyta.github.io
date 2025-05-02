@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       <main className="flex-grow">
         {/* Hero Section */}
         <section className="hero-gradient py-20 md:py-28">
@@ -36,10 +36,10 @@ const HomePage = () => {
               </div>
               <div className="md:w-1/2 flex justify-end">
                 <div className="max-w-md">
-                  <img 
-                    src="https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?auto=format&fit=crop&q=80&w=800&h=900" 
-                    alt="iOS app development" 
-                    className="rounded-lg shadow-xl" 
+                  <img
+                    src="https://images.unsplash.com/photo-1581092335878-2d9ff86ca2bf?auto=format&fit=crop&q=80&w=800&h=900"
+                    alt="iOS app development"
+                    className="rounded-lg shadow-xl"
                   />
                 </div>
               </div>
@@ -63,7 +63,7 @@ const HomePage = () => {
         <section className="py-20 bg-gray-50">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-center mb-16">What We Deliver</h2>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <div className="bg-blue-50 rounded-full w-14 h-14 flex items-center justify-center mb-6">
@@ -74,7 +74,7 @@ const HomePage = () => {
                   User-friendly interfaces that prioritize usability and create delightful experiences.
                 </p>
               </div>
-              
+
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <div className="bg-blue-50 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                   <Code className="h-6 w-6 text-primary" />
@@ -84,7 +84,7 @@ const HomePage = () => {
                   Robust, maintainable code built on solid engineering principles for lasting value.
                 </p>
               </div>
-              
+
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <div className="bg-blue-50 rounded-full w-14 h-14 flex items-center justify-center mb-6">
                   <Lightbulb className="h-6 w-6 text-primary" />
@@ -94,23 +94,6 @@ const HomePage = () => {
                   Forward-thinking approaches that leverage the latest technologies and methodologies.
                 </p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* CTA Section */}
-        <section className="py-20 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Ready to build something amazing?</h2>
-              <p className="text-xl text-gray-700 mb-8">
-                Let's discuss how we can help bring your ideas to life.
-              </p>
-              <Button asChild size="lg">
-                <Link to="/about#contact">
-                  Get in Touch <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
             </div>
           </div>
         </section>
