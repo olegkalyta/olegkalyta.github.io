@@ -1,0 +1,158 @@
+
+import React from "react";
+import { Calendar, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
+const TermsPage = () => {
+
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+
+      <main className="flex-grow">
+        {/* About Hero Section */}
+        <section className="py-20 md:py-28 bg-white">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-3xl mx-auto">
+              <h1>Terms and Conditions</h1>
+              <p className="updated">Last updated: 27 May 2025</p>
+
+              <p>Thank you for choosing AI Remodeler ("App"). These Terms and Conditions ("Terms") form a legally
+                binding agreement between you ("User" or "you") and CraftersLabs OU., a company registered in
+                Estonia, with its principal place of business at Harju maakond, Tallinn, Kesklinna linnaosa, Kaupmehe tn 7-120, 10114
+                ("Company," "we," "our," or "us"). By downloading, installing, accessing, or using the App—or any
+                services, content, or features offered through the App (collectively, "Services")—you acknowledge that
+                you have read, understood, and agree to be bound by these Terms and by our Privacy Policy, incorporated
+                by reference.</p>
+
+              <p>If you do not agree to these Terms, do not download, install, or use the App.</p>
+
+              <h2>1. Eligibility</h2>
+              <p>You must be at least 16 years old (or the age of digital consent in your jurisdiction, if higher) to
+                create an account or use the App. By using the App, you represent and warrant that:</p>
+              <ul>
+                <li>(a) you meet the eligibility requirement,</li>
+                <li>(b) you have the legal capacity to enter into a binding contract, and</li>
+                <li>(c) your use of the App is in compliance with all applicable laws and regulations.</li>
+              </ul>
+
+              <h2>2. Account Registration & Security</h2>
+              <p>To access certain features, you must create an account using Apple Sign‑In, email/password, or other
+                supported credentials. You are responsible for maintaining the confidentiality of your login information
+                and for all activities that occur under your account. Notify us immediately of any unauthorized use.</p>
+
+              <h2>3. License Grant</h2>
+              <p>Subject to your continuous compliance with these Terms, we grant you a limited, non‑exclusive,
+                non‑transferable, revocable license to download and use one copy of the App on any Apple‑branded device
+                that you own or control for your personal, non‑commercial purposes (unless you purchase a commercial‑use
+                subscription as described in § 7).</p>
+
+              <h2>4. AI‑Generated Content</h2>
+              <p>The App uses generative artificial‑intelligence models to create interior‑design images, 3‑D renders,
+                color palettes, and associated metadata ("AI Content") based on User inputs.</p>
+
+              <p><strong>Ownership.</strong> As between you and us, all AI Content is owned by us. When you generate AI
+                Content through the App while on an active paid plan, we grant you a worldwide, royalty‑free, perpetual
+                license to use, reproduce, and display that AI Content for lawful purposes, subject to restrictions in §
+                9 (Prohibited Uses). Free‑tier users receive a personal, non‑commercial license only.</p>
+
+              <p><strong>No Warranties.</strong> AI Content may contain inaccuracies or infringe third‑party
+                intellectual‑property rights. You are solely responsible for verifying AI Content before relying on or
+                publishing it.</p>
+
+              <p><strong>Right to Remove.</strong> We reserve the right (but have no obligation) to review and delete AI
+                Content that we, in our sole discretion, deem harmful, infringing, or otherwise objectionable.</p>
+
+              <h2>5. Augmented‑Reality Safety Notice</h2>
+              <p>Our AR feature overlays virtual objects onto your physical environment. Always remain aware of
+                real‑world surroundings, ensure adequate lighting, and use caution when interacting with AR scenes. Do
+                not operate a vehicle or machinery while using the AR feature. You assume all risks arising from AR
+                use.</p>
+
+              <h2>6. Subscription Plans & In‑App Purchases</h2>
+              <p>The App offers optional auto‑renewable subscriptions and consumable credit packs via Apple In‑App
+                Purchase (IAP).</p>
+              <ul>
+                <li><strong>Billing:</strong> Payment is charged to your Apple ID upon purchase confirmation.</li>
+                <li><strong>Auto-Renewal:</strong> Subscriptions renew automatically unless canceled at least 24 hours
+                  before the end of the current period.
+                </li>
+                <li><strong>Manage Plan:</strong> You can cancel in <em>Settings ➜ Apple ID ➜ Subscriptions</em>.</li>
+                <li><strong>Refunds:</strong> All purchases are final. Refunds are handled by Apple per App Store
+                  policy.
+                </li>
+                <li><strong>Price Changes:</strong> 30-day notice will be given before any pricing changes take effect.
+                </li>
+              </ul>
+
+              <h2>7. User Content & Conduct</h2>
+              <p>"User Content" includes any photos, floor plans, text, comments, or materials you upload.</p>
+
+              <p><strong>License to Us:</strong> You grant us a license to process your content to operate the App.</p>
+              <p><strong>Your Responsibility:</strong> You must have rights to all content and avoid illegal,
+                defamatory, or infringing material.</p>
+
+              <p><strong>Prohibited Uses:</strong></p>
+              <ul>
+                <li>Reverse‑engineer or hack the App.</li>
+                <li>Use AI Content for surveillance or facial recognition.</li>
+                <li>Infringe on IP or privacy rights.</li>
+                <li>Upload malware or spam.</li>
+              </ul>
+
+              <h2>8. Intellectual Property</h2>
+              <p>All trademarks, logos, and proprietary code are owned by the Company or its licensors. These Terms do
+                not grant you any ownership rights beyond the limited license provided.</p>
+
+              <h2>9. Third‑Party Services & Links</h2>
+              <p>The App may include links to third‑party sites or allow purchases from external vendors. We are not
+                responsible for third-party content or services.</p>
+
+              <h2>10. Termination</h2>
+              <p>We may suspend or terminate your account at any time for violations of these Terms, applicable law, or
+                Apple policies. Upon termination, all licenses end except for perpetual licenses explicitly granted in
+                §4.</p>
+
+              <h2>11. Disclaimer of Warranties</h2>
+              <p>THE APP IS PROVIDED “AS IS.” WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE, AND NON‑INFRINGEMENT.</p>
+
+              <h2>12. Limitation of Liability</h2>
+              <p>We are not liable for indirect or consequential damages. Our maximum liability is limited to the amount
+                you paid us in the 12 months prior to the claim.</p>
+
+              <h2>13. Indemnification</h2>
+              <p>You agree to indemnify and hold us harmless from any claims related to your use of the App, content, or
+                violations of law or third-party rights.</p>
+
+              <h2>14. Governing Law & Dispute Resolution</h2>
+              <p>These Terms are governed by California law. Disputes will be resolved in the courts of San Francisco
+                County, CA.</p>
+
+              <h2>15. Apple‑Specific Terms</h2>
+              <p>These Terms are between you and RoomRevive AI, not Apple. Apple is not responsible for support or legal
+                claims related to the App.</p>
+
+              <h2>16. Changes to Terms</h2>
+              <p>We may update these Terms at any time. Material changes will take effect 30 days after posting.
+                Continued use after that means you accept the changes.</p>
+
+              <h2>17. Contact Us</h2>
+              <p><strong>Email:</strong> <a href="mailto:oleg@crafterslabs.com">oleg@crafterslabs.com</a><br/>
+                <strong>Mail:</strong> CraftersLabs OU, Harju maakond, Tallinn, Kesklinna linnaosa, Kaupmehe tn 7-120, 10114
+              </p>
+
+
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer/>
+    </div>
+  );
+};
+
+export default TermsPage;
