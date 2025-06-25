@@ -19,7 +19,7 @@ const TermsPage = () => {
               <h1>Terms and Conditions</h1>
               <p className="updated">Last updated: 27 May 2025</p>
 
-              <p>Thank you for choosing AI Remodeler ("App"). These Terms and Conditions ("Terms") form a legally
+              <p>Thank you for choosing Remodelix AI ("App"). These Terms and Conditions ("Terms") form a legally
                 binding agreement between you ("User" or "you") and CraftersLabs OU., a company registered in
                 Estonia, with its principal place of business at Harju maakond, Tallinn, Kesklinna linnaosa, Kaupmehe tn 7-120, 10114
                 ("Company," "we," "our," or "us"). By downloading, installing, accessing, or using the App—or any
